@@ -1,6 +1,4 @@
 # Scraping-with-Mongo
-
-# The-Mongo-Scraper
 <!-- 
 1. First on the command line do: npm init
 2. This creates the package json
@@ -13,11 +11,11 @@
 
  This web app lets users view latest news from the National Public Radio.
  The features of this app is that the user can scrape articles from this souce, save articles, and open the article on a new tab. It's also possible to leave a note on a article and clear the articles.
- 
- ### Getting Started
- Pre-requists: Install Node and do a npm install
 
-## Programming/Scripting Languages:
+ ### Getting Started
+Prerequisites: Install Node and do a npm install
+
+### Programming/Scripting Languages:
 ### Front-End
 * HTML/CSS (Bootstrap)
 * JavaScript (jQuery)
