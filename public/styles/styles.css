@@ -1,45 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap');
 body { 
-    /* background-color: peachpuff;
-    background-image: url("/public/assets/newspaper_bg.jpg"); */
-
-    
+    /* background-color: peachpuff; */
+    background-image: url("/assets/newspaper_bg.jpg"); 
 }
-/* .display-4, .lead  {
+
+.display-4, .lead {
     text-align: center;
-    color: white;
-  }
-
-#wrapper {
-    width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 5%;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather', serif;
 }
 
-
-textarea, input {
-    display: block;
-    width: 100%;
+.jumbotron {
+    background: rgba(255,255,255,0.5);
 }
 
-input {
-    height: 36px;
-    font-size: 24px;
+.btn {
+   margin-right: 5px;
+   float: right;
+   margin-bottom: 2px;
 }
-
-textarea {
-    height: 200px;
-    font-size: 18px;
-}
-
-.card {
-    margin: 20px 0;
-}
-
-.articleColumn{
-    margin: 50px 0;
-}
-
-.articleImage {
-    width: 100%
-} */
