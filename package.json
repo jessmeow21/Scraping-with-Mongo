@@ -1,0 +1,20 @@
+{
+  "name": "scraping-with-mongo",
+  "version": "1.0.0",
+  "description": "# The-Mongo-Scraper <!--  1. First on the command line do: npm init 2. This creates the package json 3. Next npm install the packages required to run program 4. Require these packages in the server.js  5. Do a gitignore file for node modules because that folder is too big and not nessesary to push to github 6.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessmeow21/Scraping-with-Mongo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessmeow21/Scraping-with-Mongo/issues"
+  },
+  "homepage": "https://github.com/jessmeow21/Scraping-with-Mongo#readme"
+}

@@ -39,7 +39,13 @@ app.use(express.static("public"));
 //require api and html routes files
 require("./routes/index")(app)
 
-
+//MONGO CONNECTION 
+mongoose.Promise = global.Promise;
+//connect to the Mongo DB
+mongoose.connect(process.env.MONGODB_URI || "mongodb://user1:password1@ds029803.mlab.com:29803/heroku_482h2g52",
+{
+    useNewUrlParser: true
+});
 
 
 
