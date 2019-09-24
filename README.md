@@ -9,8 +9,8 @@
 
  -->
 
- This web app lets users view latest news from the National Public Radio.
- The features of this app is that the user can scrape articles from this souce, save articles, and open the article on a new tab. It's also possible to leave a note on a article and clear the articles.
+ This web app lets users view latest news from the National Public Radio website.
+ The features of this app includes that the user can scrape articles from this source, save articles, and open the article on a new tab. It's also possible to leave a note on a article and clear the articles.
 
  ### Getting Started
 Prerequisites: Install Node and do a npm install
