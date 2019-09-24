@@ -2,6 +2,8 @@
 body { 
     /* background-color: peachpuff; */
     background-image: url("/assets/newspaper_bg.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .display-4, .lead {
