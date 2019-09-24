@@ -34,13 +34,6 @@ $(function() {
             //append the article title to the modal body
             $('.noteModalTitle').append(`<h2>${result.title}</h2>`);
             $('.saveNoteButton').attr("data-id", result._id)
-
-            //display existing notes
-            console.log("Here is the notes AJAX call result: ");
-            console.log(result);
-
-            // for (let i=0; i<result.note.length; i++) {
-                console.log("Notes are interating");
                 let newCard = $(`
                 <div class="card">
                     <div class="card-header">
@@ -52,12 +45,7 @@ $(function() {
                     </div>
                 </div>
                 `);
-                console.log("hey this is a new card: ");
-                console.log(newCard);
                 $('.noteModalBody').append(newCard);
-            // }
-
-
         }).then(
             //show note modal
             $('#noteModal').modal('show')
