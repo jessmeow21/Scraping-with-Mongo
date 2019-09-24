@@ -1,14 +1,14 @@
 body { 
-    background-color: peachpuff;
-    background-image: url("/public/assets/newspaper_bg.jpg");
+    /* background-color: peachpuff;
+    background-image: url("/public/assets/newspaper_bg.jpg"); */
 
     
 }
-.display-4, .lead  {
+/* .display-4, .lead  {
     text-align: center;
     color: white;
   }
-  
+
 #wrapper {
     width: 960px;
     margin-left: auto;
@@ -42,4 +42,4 @@ textarea {
 
 .articleImage {
     width: 100%
-}
+} */
