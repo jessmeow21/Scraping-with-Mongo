@@ -47,12 +47,6 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://user1:password1@ds029803.
     useNewUrlParser: true
 });
 
-
-
-
-
-
-
 //test connection
 // var db = mongoose.connection;
 // db.on("error", console.error.bind(console, "connection error:"));
