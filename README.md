@@ -7,24 +7,26 @@
 3. Next npm install the packages required to run program
 4. Require these packages in the server.js 
 5. Do a gitignore file for node modules because that folder is too big and not nessesary to push to github
-6.
+
 
  -->
-## Technologies Included:
-* HTML
-* CSS
-* Bootstrap
-* JavaScript
-* Mongo DB
-* Cherrio js https://github.com/cheeriojs/cheerio
-Node NPM Packages:
-* Express npm i express
-* Express-handlebars npm i express-handlebars
-* mongo js npm i mongojs
-* mongoose npm i mongoose
-* cheerio npm i cheerio
-* axios npm i axios
-* npm i body-parser
-* gitignore for node modules
-* morgan npm i morgan - HTTP request logger middleware for node.js
-* request - simplified way to make HTTP calls npm i request
+
+ This web app lets users view latest news from the National Public Radio.
+ The features of this app is that the user can scrape articles from this souce, save articles, and open the article on a new tab. It's also possible to leave a note on a article and clear the articles.
+ 
+ ### Getting Started
+ Pre-requists: Install Node and do a npm install
+
+## Programming/Scripting Languages:
+### Front-End
+* HTML/CSS (Bootstrap)
+* JavaScript (jQuery)
+
+### Back-End
+* Node.js
+* npm packages: Express, handlebars, mongoose, cherrio, axios, body-parser, and morgan
+* database: Mongo DB
+* templating engine: handlebars
+
+Heroku deployed site: [Click Here](https://murmuring-escarpment-93941.herokuapp.com/)
+
